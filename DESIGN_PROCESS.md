@@ -115,3 +115,63 @@ Future versions could include:
 - Exportable reports
 - Notifications for low-stock items
 - Multiple store locations
+
+## Interface Screenshots
+
+The following screenshots show the current ShiftFlow prototype and its main workflows.
+
+### Dashboard
+
+The dashboard provides a quick overview of inventory status, completed shift tasks, and other information that may need attention.
+
+![ShiftFlow Dashboard](screenshots/dashboard.png)
+
+### End-of-Day Inventory
+
+The inventory interface allows users to quickly enter the amount of each item remaining at the end of a shift.
+
+![End-of-Day Inventory](screenshots/inventory1.png)
+
+Quick quantity buttons reduce repetitive data entry and allow common values to be selected with one click.
+
+![Inventory Quantity Entry](screenshots/inventory2.png)
+
+The interface automatically displays whether each item is In Stock, Low Stock, or Out of Stock.
+
+![Inventory Status](screenshots/inventory3.png)
+
+### Shift Tasks
+
+The Shift Tasks section provides a consistent checklist for responsibilities that need to be completed during a shift.
+
+![Shift Tasks](screenshots/shifttask1.png)
+
+Task completion is tracked and can be saved for each Opening or Closing shift.
+
+![Shift Task Checklist](screenshots/shifttask2.png)
+
+### Training Tracker
+
+The Training Tracker allows employee progress to be recorded across Prep, Barista, Cashier, and Expo stations.
+
+![Training Tracker](screenshots/trainingtracker1.png)
+
+Training percentages can be updated as employees develop their skills at each station.
+
+![Employee Training Progress](screenshots/trainingtracker2.png)
+
+### Daily Report
+
+The Daily Report combines shift information, inventory results, task completion, notes, and follow-up issues into one record.
+
+![Daily Report](screenshots/dailyreport1.png)
+
+Inventory and task summaries allow the shift leader to review the current shift before saving the final report.
+
+![Daily Report Summary](screenshots/dailyreport2.png)
+
+### Report History
+
+Report History allows previous shift reports to be reviewed later, preserving information about inventory, tasks, training, and operational notes.
+
+![Report History](screenshots/reporthistory.png)
