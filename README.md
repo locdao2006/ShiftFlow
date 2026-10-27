@@ -2,9 +2,7 @@
 
 ShiftFlow is a self-directed web application designed to help small food-service teams organize and document daily operations.
 
-The project was inspired by challenges I observed while working in a fast-paced food-service environment, where shift leaders often need to track inventory, complete opening and closing tasks, monitor employee training, and communicate important information between shifts.
-
-ShiftFlow brings these responsibilities into one centralized system.
+The project was inspired by challenges I observed in a fast-paced food-service environment, where shift leaders need to track inventory, complete shift responsibilities, monitor employee training, and communicate important information between shifts.
 
 ## Features
 
@@ -12,7 +10,7 @@ ShiftFlow brings these responsibilities into one centralized system.
 
 Employees can enter the remaining quantity of each inventory item at the end of a shift.
 
-To make inventory entry faster, the application includes quick-select quantity buttons such as:
+Quick-select buttons make inventory entry faster:
 
 - 0
 - 5
@@ -22,153 +20,71 @@ To make inventory entry faster, the application includes quick-select quantity b
 
 Exact quantities can also be adjusted manually.
 
-The system automatically classifies each item as:
+ShiftFlow automatically identifies items as:
 
 - ✅ In Stock
 - ⚠️ Low Stock
 - 🚨 Out of Stock
 
-Inventory thresholds vary depending on the type of product and expected operational needs.
+### Shift Tasks
 
-### Shift Task Checklist
+ShiftFlow includes a checklist for common shift responsibilities such as inventory checks, cleaning, organizing supplies, trash removal, and closing procedures.
 
-ShiftFlow provides a checklist for important opening and closing responsibilities, including:
+### Training Tracker
 
-- Checking inventory
-- Preparing toppings
-- Cleaning drink stations
-- Cleaning drains
-- Taking out trash
-- Organizing supplies
-- Cleaning syrup and sugar areas
-- Sweeping and mopping floors
-- Turning off equipment
-- Wiping down work surfaces
-
-Task completion can be saved separately for each shift.
-
-### Employee Training Tracker
-
-Managers or shift leaders can track employee training progress across four main stations:
+Employee training can be tracked across four stations:
 
 - Prep
 - Barista
 - Cashier
 - Expo
 
-Each employee can be assigned a station and a training completion percentage.
+### Daily Reports
 
-### Daily Shift Reports
+Opening and Closing shift reports can include:
 
-Shift leaders can create reports for Opening and Closing shifts.
-
-Each report can include:
-
-- Date
-- Shift
+- Date and shift
 - Shift leader
 - Number of employees working
 - Daily notes
-- Issues requiring follow-up
+- Follow-up issues
 - Inventory status
-- Completed shift tasks
-- Employee training progress
-
-If a report already exists for the same date and shift, ShiftFlow updates the existing report instead of creating a duplicate.
+- Completed tasks
+- Training information
 
 ### Report History
 
-Saved reports can be reviewed later to understand what happened during previous shifts.
+Previous reports can be reviewed to see inventory conditions, shift tasks, operational notes, and training information from earlier shifts.
 
-The report history includes:
-
-- Inventory quantities and status
-- Completed and incomplete tasks
-- Daily operational notes
-- Follow-up issues
-- Employee training progress
-
-## Inventory Logic
-
-ShiftFlow automatically determines inventory status using predefined minimum levels.
-
-For example, if the minimum quantity for Tapioca Pearls is 5:
-
-- Quantity = 0 → Out of Stock
-- Quantity = 1–4 → Low Stock
-- Quantity ≥ 5 → In Stock
-
-This logic allows users to quickly identify items that may need to be reordered or restocked.
-
-## Technologies Used
+## Technologies
 
 - Python
 - Streamlit
 - JSON
 - GitHub
 
-## Project Purpose
+## Installation
 
-I created ShiftFlow as a way to apply programming to a real operational problem.
-
-Rather than building a program only for technical practice, I wanted to design a tool around how people actually work in a fast-paced environment.
-
-The project combines:
-
-- User-centered design
-- Information organization
-- Workflow improvement
-- Interactive interface design
-- Data storage
-- Business logic
-- Operational problem solving
-
-Building ShiftFlow also helped me explore my interest in Informatics, especially how technology can support people, communication, and organizational processes.
-
-## What I Learned
-
-Through this project, I gained more experience with:
-
-- Designing software around user needs
-- Building interactive applications with Streamlit
-- Using Python functions, lists, dictionaries, and conditional logic
-- Saving and retrieving structured information with JSON
-- Creating reusable application components
-- Designing inventory status rules
-- Managing information across multiple shifts
-- Improving an application through repeated testing and revision
-
-## Future Improvements
-
-Possible future improvements include:
-
-- User login and manager permissions
-- Cloud database storage
-- Mobile-friendly interface improvements
-- Inventory usage trends over time
-- Automatic reorder recommendations
-- Employee-specific training history
-- Charts and operational analytics
-- Notifications for low-stock items
-- Exportable daily reports
-- Multi-location support
-
-## Running the Project
-
-Install the required package:
+Install the required dependency:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application:
+Run ShiftFlow:
 
 ```bash
 py -m streamlit run app.py
 ```
 
-Then open the local Streamlit URL shown in the terminal.
+The application will open in your browser through Streamlit.
 
-## Project Status
+## Project Documentation
 
-ShiftFlow is currently a working prototype and is continuing to be improved based on usability, workflow, and feature testing.
+For a detailed explanation of the problem, design decisions, workflow, iterations, and lessons learned:
+
+[View the ShiftFlow Design Process](DESIGN_PROCESS.md)
+
+## Status
+
+ShiftFlow is currently a working prototype and continues to be improved through usability and workflow testing.
