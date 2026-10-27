@@ -1,4 +1,4 @@
-# ShiftFlow — Daily Operations Management System
+# ShiftFlow — A Human-Centered Operations Tool
 
 ShiftFlow is a self-directed web application designed to help small food-service teams organize end-of-shift operations in one centralized system.
 
@@ -92,37 +92,37 @@ Previous reports can be reviewed later to see:
 
 ### Dashboard
 
-![ShiftFlow Dashboard](dashboard.png)
+![ShiftFlow Dashboard](screenshots/dashboard.png)
 
 ### End-of-Day Inventory
 
-![End-of-Day Inventory](inventory1.png)
+![End-of-Day Inventory](screenshots/inventory1.png)
 
-![Inventory Quantity Entry](inventory2.png)
+![Inventory Quantity Entry](screenshots/inventory2.png)
 
-![Inventory Status](inventory3.png)
+![Inventory Status](screenshots/inventory3.png)
 
 ### Shift Tasks
 
-![Shift Tasks](shifttask1.png)
+![Shift Tasks](screenshots/shifttask1.png)
 
-![Shift Task Checklist](shifttask2.png)
+![Shift Task Checklist](screenshots/shifttask2.png)
 
 ### Training Tracker
 
-![Training Tracker](trainingtracker1.png)
+![Training Tracker](screenshots/trainingtracker1.png)
 
-![Employee Training Progress](trainingtracker2.png)
+![Employee Training Progress](screenshots/trainingtracker2.png)
 
 ### Daily Report
 
-![Daily Report](dailyreport1.png)
+![Daily Report](screenshots/dailyreport1.png)
 
-![Daily Report Summary](dailyreport2.png)
+![Daily Report Summary](screenshots/dailyreport2.png)
 
 ### Report History
 
-![Report History](reporthistory.png)
+![Report History](screenshots/reporthistory.png)
 
 ## Technologies
 
@@ -161,42 +161,9 @@ ShiftFlow/
 ├── README.md
 ├── DESIGN_PROCESS.md
 ├── run_app.bat
-├── dashboard.png
-├── inventory1.png
-├── inventory2.png
-├── inventory3.png
-├── shifttask1.png
-├── shifttask2.png
-├── trainingtracker1.png
-├── trainingtracker2.png
-├── dailyreport1.png
-├── dailyreport2.png
-└── reporthistory.png
-```
-
-## Project Documentation
-
-For a more detailed explanation of the problem, design decisions, workflow, iterations, and lessons learned:
-
-[View the ShiftFlow Design Process](DESIGN_PROCESS.md)
-
-## Project Status
-
-ShiftFlow is currently a working prototype.
-
-Future development may include:
-
-- User authentication
-- Manager and employee permission levels
-- Cloud database storage
-- Inventory trend analytics
-- Automatic reorder recommendations
-- Employee-specific training histories
-- Mobile interface improvements
-- Exportable shift reports
-- Low-stock notifications
-- Multi-location support
-
-## Disclaimer
-
-ShiftFlow is an independent self-directed project created for learning and portfolio purposes. It is not an official application of any food-service company or employer.
+└── screenshots/
+    ├── dashboard.png
+    ├── inventory1.png
+    ├── inventory2.png
+    ├── inventory3.png
+   
