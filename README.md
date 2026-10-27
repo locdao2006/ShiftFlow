@@ -88,42 +88,6 @@ Previous reports can be reviewed later to see:
 - Follow-up issues
 - Employee training progress
 
-## Screenshots
-
-### Dashboard
-
-![ShiftFlow Dashboard](screenshots/dashboard.png)
-
-### End-of-Day Inventory
-
-![End-of-Day Inventory](screenshots/inventory1.png)
-
-![Inventory Quantity Entry](screenshots/inventory2.png)
-
-![Inventory Status](screenshots/inventory3.png)
-
-### Shift Tasks
-
-![Shift Tasks](screenshots/shifttask1.png)
-
-![Shift Task Checklist](screenshots/shifttask2.png)
-
-### Training Tracker
-
-![Training Tracker](screenshots/trainingtracker1.png)
-
-![Employee Training Progress](screenshots/trainingtracker2.png)
-
-### Daily Report
-
-![Daily Report](screenshots/dailyreport1.png)
-
-![Daily Report Summary](screenshots/dailyreport2.png)
-
-### Report History
-
-![Report History](screenshots/reporthistory.png)
-
 ## Technologies
 
 - Python
@@ -166,4 +130,38 @@ ShiftFlow/
     ├── inventory1.png
     ├── inventory2.png
     ├── inventory3.png
-   
+    ├── shifttask1.png
+    ├── shifttask2.png
+    ├── trainingtracker1.png
+    ├── trainingtracker2.png
+    ├── dailyreport1.png
+    ├── dailyreport2.png
+    └── reporthistory.png
+```
+
+## Project Documentation
+
+For a detailed explanation of the problem, design decisions, workflow, iterations, lessons learned, and visual walkthrough of the application:
+
+[View the ShiftFlow Design Process](DESIGN_PROCESS.md)
+
+## Project Status
+
+ShiftFlow is currently a working prototype.
+
+Future development may include:
+
+- User authentication
+- Manager and employee permission levels
+- Cloud database storage
+- Inventory trend analytics
+- Automatic reorder recommendations
+- Employee-specific training histories
+- Mobile interface improvements
+- Exportable shift reports
+- Low-stock notifications
+- Multi-location support
+
+## Disclaimer
+
+ShiftFlow is an independent self-directed project created for learning and portfolio purposes. It is not an official application of any food-service company or employer.
