@@ -1,4 +1,4 @@
-# ShiftFlow — A Human-Centered Operations Tool
+# ShiftFlow — Daily Operations Management System
 
 ShiftFlow is a self-directed web application designed to help small food-service teams organize end-of-shift operations in one centralized system.
 
