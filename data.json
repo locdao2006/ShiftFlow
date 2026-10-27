@@ -1,0 +1,31 @@
+{
+    "data_version": 5,
+    "trainees": [
+        {
+            "name": "myha",
+            "station": "Prep",
+            "progress": 20
+        }
+    ],
+    "inventory_reports": [],
+    "task_reports": [],
+    "daily_reports": [
+        {
+            "date": "2026-10-22",
+            "shift": "Closing",
+            "shift_leader": "Myha",
+            "staff_count": 3,
+            "notes": "Everything is good",
+            "issues": "",
+            "inventory": [],
+            "tasks": [],
+            "training": [
+                {
+                    "name": "myha",
+                    "station": "Prep",
+                    "progress": 20
+                }
+            ]
+        }
+    ]
+}
